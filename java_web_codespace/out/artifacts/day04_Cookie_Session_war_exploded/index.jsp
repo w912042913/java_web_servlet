@@ -1,4 +1,7 @@
-<%--
+<%@ page import="java.util.Date" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.net.URLEncoder" %>
+<%@ page import="java.net.URLDecoder" %><%--
   Created by IntelliJ IDEA.
   User: asus
   Date: 2020/8/29
@@ -7,10 +10,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  <% out.write("heasdsaasdashe");%>
-  </body>
+<head>
+  <title>$Title$</title>
+</head>
+<body>
+<%--  jsp案例--%>
+<%  out.write("hehehahha!"); %>
+<%! String name = "zhangsan";%>
+<%= "nihaoma"%>
+</body>
 </html>
