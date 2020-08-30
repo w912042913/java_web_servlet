@@ -24,7 +24,7 @@ public class LoginServlet  extends HttpServlet {
         String password = req.getParameter("password");
         // 3、 封装成对象
         User loginUser = new User();
-        loginUser.setUsename(username);
+        loginUser.setUsername(username);
         loginUser.setPassword(password);
         // 4调用 dao 中 login方法
         UserDao dao = new UserDaoImpl();

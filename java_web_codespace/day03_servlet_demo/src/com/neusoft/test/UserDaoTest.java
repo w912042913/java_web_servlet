@@ -8,7 +8,7 @@ public class UserDaoTest {
  @Test
  public void test(){
   User loginUser = new User();
-  loginUser.setUsename("bigbaby");
+  loginUser.setUsername("bigbaby");
   loginUser.setPassword("12345");
   UserDaoImpl dao = new UserDaoImpl();
   User login = dao.login(loginUser);

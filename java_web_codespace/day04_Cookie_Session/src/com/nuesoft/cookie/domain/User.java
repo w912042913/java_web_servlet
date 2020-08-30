@@ -1,4 +1,4 @@
-package com.neusoft.domain;
+package com.nuesoft.cookie.domain;
 
 public class User {
     private int id;

@@ -1,5 +1,7 @@
 package com.nuesoft.cookie.servlet;
-
+import com.nuesoft.cookie.dao.UserDao;
+import com.nuesoft.cookie.dao.impl.UserImpl;
+import com.nuesoft.cookie.domain.User;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -30,11 +32,17 @@ public class LoginServlet extends HttpServlet {
         //5.先判断验证码是否正确
         if (checkCode_session!=null && checkCode_session.equalsIgnoreCase(checkCode)){
             //判断用户名和密码是否正确
-            if ("zhangsan".equals(username)&&"123".equals(password)){ //TODO 调用UserDao查询数据库
+            User loginUser = new User();
+            loginUser.setUsername(username);
+            loginUser.setPassword(password);
+            UserDao dao = new UserImpl();
+            dao.loginUser(loginUser);
+            User user = null;
+            user= dao.loginUser(loginUser);
+            if (user!=null){ //TODO 调用UserDao查询数据库
                 //登陆成功
                 // 将用户的信息存储到session里面
                 session.setAttribute("user", "username");
-
                 //重定向到success.jsp 页面
                 resp.sendRedirect(req.getContextPath()+"/success.jsp");
             }
@@ -47,7 +55,6 @@ public class LoginServlet extends HttpServlet {
             //验证码不一致
             req.setAttribute("cc_error", "验证码错误");
             req.getRequestDispatcher(req.getContextPath()+"/login.jsp").forward(req, resp);
-
         }
     }
 }

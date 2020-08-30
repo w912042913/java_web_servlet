@@ -19,7 +19,7 @@ public class SuccessServlet extends HttpServlet {
         if (user != null){
             // 设置编码
             resp.setContentType("text/html;charset=utf-8");
-            resp.getWriter().write("登录成功!"+ user.getUsename() + " ,欢迎您 ");
+            resp.getWriter().write("登录成功!"+ user.getUsername() + " ,欢迎您 ");
         }
     }
 

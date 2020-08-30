@@ -20,5 +20,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.31" level="application_server_libraries" />
+    <orderEntry type="module" module-name="day03_servlet_demo" />
+    <orderEntry type="library" name="lib (2)" level="project" />
   </component>
 </module>
