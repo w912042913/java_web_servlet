@@ -19,7 +19,7 @@
 
 <body>
 <%
-    request.setAttribute("number", 1);
+    request.setAttribute("number", 8);
 %>
 <d:choose>
     <d:when test="${number==1}">星期一</d:when>
