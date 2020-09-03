@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="day05_el_jstl:war exploded" />
+      <artifact name="user_case:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -35,8 +35,8 @@
         <option value="HTML File" />
         <option value="jsf" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,19 +80,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.neusoft.Dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\java_web_servlet\java_web_codespace\user_case\web\WEB-INF" />
+      <recent name="D:\GitHub\java_web_servlet\java_web_codespace\user_case\web" />
+      <recent name="D:\GitHub\java_web_servlet\java_web_codespace\user_case\src" />
       <recent name="D:\GitHub\java_web_servlet\java_web_codespace\day05_el_jstl\web\jstl" />
       <recent name="D:\GitHub\java_web_servlet\java_web_codespace\day05_el_jstl\web\WEB-INF" />
-      <recent name="D:\GitHub\java_web_servlet\java_web_codespace\day04_Cookie_Session\web\WEB-INF" />
-      <recent name="D:\GitHub\java_web_servlet\java_web_codespace\day04_Cookie_Session\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neusoft.web.servlet" />
       <recent name="com.nuesoft.cookie.util" />
       <recent name="com.nuesoft.cookie.servlet" />
       <recent name="com.nuesoft.cookie.session" />
       <recent name="com.nuesoft.cookie" />
-      <recent name="com.neusoft.util.web.sevlet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\java_web_servlet\java_web_codespace\day05_el_jstl\web" />
@@ -100,6 +103,69 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.31">
+    <configuration name="TestUserDaoImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user_case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestUserDaoImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserDaoImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user_case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestUserDaoImpl" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserDaoImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user_case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestUserDaoImpl" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserDaoImpl.userDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user_case" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestUserDaoImpl" />
+      <option name="METHOD_NAME" value="userDaoImplTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day03_servlet_demo" />
       <extension name="coverage">
@@ -121,7 +187,7 @@
       <deployment>
         <artifact name="user_case:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/user_case_war_exploded" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
@@ -253,10 +319,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UserDaoTest.test" />
+      <item itemvalue="JUnit.TestUserDaoImpl" />
+      <item itemvalue="JUnit.TestUserDaoImpl.test2" />
+      <item itemvalue="JUnit.TestUserDaoImpl.userDaoImplTest" />
+      <item itemvalue="JUnit.TestUserDaoImpl.test3" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUserDaoImpl.userDaoImplTest" />
+        <item itemvalue="JUnit.TestUserDaoImpl.test3" />
+        <item itemvalue="JUnit.TestUserDaoImpl.test2" />
+        <item itemvalue="JUnit.TestUserDaoImpl" />
         <item itemvalue="JUnit.UserDaoTest.test" />
       </list>
     </recent_temporary>
@@ -265,17 +339,12 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.2124317" />
+          <option name="contentProportion" value="0.19330601" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -311,7 +380,10 @@
       <workItem from="1598660928189" duration="19869000" />
       <workItem from="1598773074344" duration="5083000" />
       <workItem from="1598779554723" duration="1263000" />
-      <workItem from="1598834092221" duration="9758000" />
+      <workItem from="1598834092221" duration="23074000" />
+      <workItem from="1598920675792" duration="5045000" />
+      <workItem from="1598925793798" duration="19022000" />
+      <workItem from="1599006430038" duration="5969000" />
     </task>
     <servers />
   </component>
@@ -323,18 +395,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1598834731763" />
+    <state x="344" y="66" key="#TestUserDaoImpl.test3" timestamp="1598925702875">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="344" y="66" key="#TestUserDaoImpl.test3/0.0.1536.834@0.0.1536.834" timestamp="1598925702875" />
     <state x="360" y="75" key="#Tomcat_Server" timestamp="1598337071524">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="360" y="75" key="#Tomcat_Server/0.0.1536.834@0.0.1536.834" timestamp="1598337071524" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598844609808">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598927449104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1598844609808" />
-    <state x="574" y="127" width="495" height="579" key="#com.intellij.ide.util.MemberChooser" timestamp="1598838358153">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1598927449104" />
+    <state x="574" y="127" width="495" height="579" key="#com.intellij.ide.util.MemberChooser" timestamp="1599008984603">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" width="495" height="579" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1598838358153" />
+    <state x="574" y="127" width="495" height="579" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1599008984603" />
     <state x="360" y="75" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1598337138073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -343,90 +419,94 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="356" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1598776994139" />
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598344751624">
+    <state x="545" y="276" width="445" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598929660516">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1598344751624" />
-    <state x="548" y="157" key="FileChooserDialogImpl" timestamp="1598834642926">
+    <state x="545" y="276" width="445" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1598929660516" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598929758878">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="157" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598834642926" />
-    <state width="1152" height="239" key="GridCell.Tab.0.bottom" timestamp="1598844621650">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1598929758878" />
+    <state x="548" y="157" key="FileChooserDialogImpl" timestamp="1598958006053">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598844621650" />
-    <state width="1152" height="239" key="GridCell.Tab.0.center" timestamp="1598844621649">
+    <state x="548" y="157" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598958006053" />
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1598962250944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598844621649" />
-    <state width="1152" height="239" key="GridCell.Tab.0.left" timestamp="1598844621649">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598962250944" />
+    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1598962250944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598844621649" />
-    <state width="1152" height="239" key="GridCell.Tab.0.right" timestamp="1598844621650">
+    <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598962250944" />
+    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1598962250944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598844621650" />
-    <state width="1152" height="239" key="GridCell.Tab.1.bottom" timestamp="1598844621650">
+    <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598962250944" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1598962250944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598844621650" />
-    <state width="1152" height="239" key="GridCell.Tab.1.center" timestamp="1598844621650">
+    <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598962250944" />
+    <state width="1180" height="234" key="GridCell.Tab.1.bottom" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1598844621650" />
-    <state width="1152" height="239" key="GridCell.Tab.1.left" timestamp="1598844621650">
+    <state width="1180" height="234" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1180" height="234" key="GridCell.Tab.1.center" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1598844621650" />
-    <state width="1152" height="239" key="GridCell.Tab.1.right" timestamp="1598844621650">
+    <state width="1180" height="234" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1180" height="234" key="GridCell.Tab.1.left" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1598844621650" />
-    <state width="1152" height="239" key="GridCell.Tab.2.bottom" timestamp="1598844621303">
+    <state width="1180" height="234" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1180" height="234" key="GridCell.Tab.1.right" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598844621303" />
-    <state width="1152" height="239" key="GridCell.Tab.2.center" timestamp="1598844621303">
+    <state width="1180" height="234" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1180" height="234" key="GridCell.Tab.2.bottom" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1598844621303" />
-    <state width="1152" height="239" key="GridCell.Tab.2.left" timestamp="1598844621303">
+    <state width="1180" height="234" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1180" height="234" key="GridCell.Tab.2.center" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1598844621303" />
-    <state width="1152" height="239" key="GridCell.Tab.2.right" timestamp="1598844621303">
+    <state width="1180" height="234" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1180" height="234" key="GridCell.Tab.2.left" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1598844621303" />
-    <state width="1152" height="239" key="GridCell.Tab.3.bottom" timestamp="1598842981089">
+    <state width="1180" height="234" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1180" height="234" key="GridCell.Tab.2.right" timestamp="1598962250924">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598842981089" />
-    <state width="1152" height="239" key="GridCell.Tab.3.center" timestamp="1598842981089">
+    <state width="1180" height="234" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1598962250924" />
+    <state width="1152" height="239" key="GridCell.Tab.3.bottom" timestamp="1598869900801">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1598842981089" />
-    <state width="1152" height="239" key="GridCell.Tab.3.left" timestamp="1598842981089">
+    <state width="1152" height="239" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598869900801" />
+    <state width="1152" height="239" key="GridCell.Tab.3.center" timestamp="1598869900800">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1598842981089" />
-    <state width="1152" height="239" key="GridCell.Tab.3.right" timestamp="1598842981089">
+    <state width="1152" height="239" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1598869900800" />
+    <state width="1152" height="239" key="GridCell.Tab.3.left" timestamp="1598869900800">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1152" height="239" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1598842981089" />
+    <state width="1152" height="239" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1598869900800" />
+    <state width="1152" height="239" key="GridCell.Tab.3.right" timestamp="1598869900800">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1152" height="239" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1598869900800" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1598345293889">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598345293889" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1598834162586">
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1599006446833">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1598834162586" />
-    <state x="485" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598592440578">
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1599006446833" />
+    <state x="485" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598857957221">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="485" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1598592440578" />
+    <state x="485" y="311" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1598857957221" />
     <state x="178" y="0" key="new project wizard" timestamp="1598845326382">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -435,10 +515,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="445" y="264" width="715" height="306" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.834@0.0.1536.834" timestamp="1598342308086" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1598845008232">
+    <state x="425" y="189" key="run.anything.popup" timestamp="1598930311770">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1598845008232" />
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1598930311770" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1598844711669">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -453,5 +533,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_web_codespace$Tomcat_8_5_31.ic" NAME="Tomcat 8.5.31 Coverage Results" MODIFIED="1598338669581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/java_web_codespace$TestUserDaoImpl_test3.ic" NAME="TestUserDaoImpl.test3 Coverage Results" MODIFIED="1598925637336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.neusoft.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
